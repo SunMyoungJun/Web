@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+label {
+display : inline-block;
+width : 80px;
+}
+</style>
+
+</head>
+<body>
+
+<h1>상품을 등록 해 주세요.</h1>
+
+<form method="post" action="in">
+<input type = "hidden" name ="action" value = "regist">
+<label>상품명 : </label>
+<input type="text" name ="product_name"> <br>
+<label>상품 가격 : </label>
+<input type = "text" name = "price"> <br>
+<label>상품 설명 : </label>
+<input type = "text" name = "explain"> <br>
+<input type ="submit" name = "save" value ="등록">
+<input type = "reset" name = "stop" value = "취소">
+
+</form>
+
+</body>
+</html>
